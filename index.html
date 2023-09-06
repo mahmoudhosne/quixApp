@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quize programming app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="content">
+          <div class="hero-section">
+            <div class="reset">
+              <button type="button" class="reset-btn hidden">reset</button>
+            </div>
+
+            <h1 class="main-title">check where your level in programming is</h1>
+            <div>
+              <h3 class="title-current-lang-exam hidden"></h3>
+            </div>
+          </div>
+          <div class="question-number-box hidden">
+            <p class="box">
+              <span class="current-question-number"> 0 </span><span>/</span
+              ><span class="main-question-number"></span> qustions
+            </p>
+          </div>
+          <h3 class="choose-lang"></h3>
+          <div class="choose-type-Q">
+            <div class="language-photo" href="#"></div>
+          </div>
+          <!-- qustion-section hidden -->
+          <div class="qustion-box hidden">
+            <h2 class="mainQs"></h2>
+            <div class="inputs">
+              <div class="first-choose">
+                <input value="first" name="radio" type="radio" id="1" />
+                <label class="label-first-choose"></label><br />
+              </div>
+              <div class="second-choose">
+                <input value="second" name="radio" type="radio" id="2" />
+                <label class="label-second-choose"></label><br />
+              </div>
+              <div class="third-choose">
+                <input value="third" name="radio" type="radio" id="3" />
+                <label class="label-third-choose"></label>
+              </div>
+            </div>
+          </div>
+          <div class="next-qS">
+            <button class="next hidden" type="button">next</button>
+          </div>
+          <div class="back">
+            <button type="button" class="back-btn hidden">&#8592; back</button>
+          </div>
+          <div class="reult-section">
+            <!-- degree hidden -->
+            <p class="message hidden">
+              <span class="smile-emotion"> &#128513;</span
+              ><span class="sad-emotion"> &#128517;</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
